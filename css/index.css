@@ -1,0 +1,172 @@
+ header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+        }
+      
+    }
+
+:root{
+  --bgColor1:rgb(252, 121, 143);
+  --bgColor2:rgb(66, 133, 244);
+  --bgColor3:rgb(67, 239, 84);
+  --text1:#FFFFFF;
+}
+
+body {
+  background:#FFFFFF;
+}
+
+.nav-wrapper{
+  background:-webkit-linear-gradient(0deg,var(--bgColor1));
+  background: linear-gradient(0deg,var(--bgColor1),50%,rgb(173, 53, 73))!important;
+  font-family:"Amatic SC",Arial,sans-serif;
+}
+
+nav{
+  margin-top:-30px!important;
+}
+
+#britInc{
+  background:url("https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/10599356_10203554377836975_2862752218111064861_n.jpg?oh=2899ae5461b3e1ca85d2d3bbe6cb5a99&oe=599B852B");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 490px;
+  margin-top:50px;
+}
+.background{
+  opacity:.75;
+}
+
+.name, .email{
+  font-size:16px!important;
+  padding:0!important;
+}
+
+.brit{
+  width:100px!important;
+  height:100px!important;
+  margin:0 auto!important;
+  display:block !important;
+}
+
+.subheader{
+  font-size:16px!important;
+}
+
+#slide-out li .brithov:hover{
+  background-color:rgba(252, 121, 143,.2)!important;
+}
+
+h1,h2,h3,h4{
+  font-family:"Amatic SC",Arial,sans-serif;
+  font-weight:700;
+}
+
+h1{
+  font-size:100px!important;
+  font-weight:bolder;
+}
+
+h3{
+  font-size:50px!important;
+  background:-webkit-linear-gradient(0deg,var(--bgColor2));
+  background: linear-gradient(0deg,var(--bgColor2),50%,rgb(59, 89, 152));
+  
+  color:#FFFFFF;
+}
+
+h4{
+  font-size:40px!important;
+  background:-webkit-linear-gradient(0deg,var(--bgColor3));
+  background: linear-gradient(0deg,var(--bgColor3),50%,rgb(40, 130, 47));
+  color:#FFFFFF;
+}
+
+li,blockquote,span,p{
+  font-family:"Patrick Hand SC",Arial,sans-serif;
+  font-size:18px;
+}
+
+h2 {
+  background:-webkit-linear-gradient(0deg,var(--bgColor1));
+  background :linear-gradient(0deg,var(--bgColor1),50%,rgb(173, 53, 73));
+  color: var(--text1);
+  font-size:80px!important;
+}
+
+iframe{
+  border:3px inset var(--bgColor2);
+  box-shadow:4px 4px 5px;
+  border-radius:20px;
+}
+
+.imgCenter{
+  margin:0 auto!important;
+  display:block !important;
+  border-radius:20px !important;
+  box-shadow: 2px 2px 10px!important;
+}
+
+.imgCenter:hover{
+  border: 2px solid var(--bgColor2);
+}
+
+.faqQuestion{
+  background:-webkit-linear-gradient(0deg,var(--bgColor3));
+  background: linear-gradient(0deg,var(--bgColor3),50%,rgb(40, 130, 47));
+  color:#FFFFFF;
+}
+
+#authorNote{
+  text-align:right;
+  font-size:12px;
+  margin-right:20px;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top: 60px;
+}
+
+.flexCol a:visited, .flexXCol a:link, .flexCol a:active {
+  color:#000000;
+}
+
+#ashBrit {
+  margin:40px 0 0 35px!important;
+}
+
+#socialCard {
+  transform: translate(-30px,30px);
+}
+
+#facebook:hover{
+  color:rgb(59, 89, 152);
+}
+
+#twitter:hover{
+  color:rgb(3, 169, 244);
+}
+
+#linkedin:hover{
+  color:#0077B5;
+}
+
+#instagram:hover{
+  color:rgb(247, 222, 0);
+}
+#facebook,#twitter,#linkedin,#instagram{
+  transition: all .75s linear; 
+}
+
+footer{
+  background:-webkit-linear-gradient(0deg,var(--bgColor1));
+  background: linear-gradient(0deg,var(--bgColor1),50%,rgb(173, 53, 73));
+}
